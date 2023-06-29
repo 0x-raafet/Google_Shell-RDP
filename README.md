@@ -1,8 +1,19 @@
-# ubuntu-remote-desktop
+# Debian_VPS_Google_Shell
+ - Run Debian 11 on Google Cloud Shell
+
+
+1.  [Google Cloud Shell](https://shell.cloud.google.com/?show=ide%2Cterminal)
+
+
+```bash
+wget -O install.sh "https://raw.githubusercontent.com/0x-raafet/Google_Shell-RDP/main/install.sh" 2> /dev/null; sudo bash install.sh
 ```
-wget https://raw.githubusercontent.com/0x-raafet/ubuntu-rdp/main/rdp ; chmod +x rdp ; ./rdp
-```
-Restart the machine
-```
-vnceserver
+
+3.  ngrok authtoken [Here](https://dashboard.ngrok.com/get-started/your-authtoken)
+
+
+# Command to start
+
+```bash
+startvps
 ```
