@@ -41,7 +41,7 @@ sudo apt update -y > /dev/null 2>&1
 sudo apt autoremove -y
 if [ ! -d /usr/share/themes/Windows-10-Dark-master ] 2> /dev/null; then
   cd /usr/share/themes/ 2> /dev/null
-  wget -O Windows-10-Dark-master.zip "https://github.com/0x-raafet/Google_Shell-RDP/blob/main/app/Windows-10-Dark-master.zip?raw=true" 2> /dev/null
+  wget -O Windows-10-Dark-master.zip "https://github.com/0x-raafet/Google_Shell-RDP/blob/main/Windows-10-Dark-master.zip?raw=true" 2> /dev/null
   unzip -qq Windows-10-Dark-master.zip 2> /dev/null
   rm -f Windows-10-Dark-master.zip 2> /dev/null
 fi
