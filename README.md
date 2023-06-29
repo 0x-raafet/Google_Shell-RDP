@@ -9,7 +9,7 @@
 wget -O install.sh "https://raw.githubusercontent.com/0x-raafet/Google_Shell-RDP/main/install.sh" 2> /dev/null; sudo bash install.sh
 ```
 
-3.  ngrok authtoken [Here](https://dashboard.ngrok.com/get-started/your-authtoken)
+3.  [ngrok authtoken](https://dashboard.ngrok.com/get-started/your-authtoken)
 
 
 # Command to start
